@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    padding: 30px;
+    gap: 30px;
+}
+#nav #text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 20px;
+}
+#nav i{
+    font-size: 25px;
+}
+#link{
+    display: flex;
+    gap: 5px;
+}
+#link button{
+    padding: 5px 10px 5px;
+    border-radius: 100px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    gap: 20px;
+    
+}
+#link #btn3{
+    background-color: rgba(6, 209, 236, 0.825);
+    border: none;
+}
+#main2{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: space-between;
+    background-color: black;
+}
+#a{
+    width: 33%;
+    height: 100%;
+    background-color: rgb(255, 200, 0);
+    border-radius: 10px;
+}
+#a #text{
+    font-size: 20px;
+    padding: 10px;
+    font-size: 25px;
+    letter-spacing: -2px;
+    line-height: 55px;
+}
+#a #para{
+    padding: 10px;
+    font-size: 17px;
+    letter-spacing: 0.2px;
+    line-height: 25px;
+    font-weight: 600;
+}
+
+#a #imj{
+    width: 50px;
+    height: 50px;
+    background-image: url(https://images.unsplash.com/photo-1615109398623-88346a601842?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1hbnxlbnwwfHwwfHx8MA%3D%3D);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+#a #photo{
+    display: flex;
+    margin-top: 10px;
+    padding: 0px 10px;
+    align-items: center;
+   gap: 10px;
+}
+#a #Whisper{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+    gap: 5px;
+}
+#a #Whisper h4{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .2px;
+}
+#a #line{
+    width: 20px;
+    height: 2px;
+    background-color: black;
+}
+#e{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33%;
+    height: 100%;
+   
+}
+#b{
+    width: 100%;
+    height: 49%;
+    background-color: rgb(6, 126, 142);
+    border-radius: 10px;
+}
+#b #num{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    margin-top: 10px;
+    gap: 5px;
+}
+#b #num h1{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+#b #num i{
+    font-size: 50px;
+}
+#b #one{
+    width: 95%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.712);
+    margin: 10px;
+} 
+#b #txt{
+    padding: 0px 10px;
+} 
+#b #two1{
+    width: 95%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.712);
+    margin: 10px;
+} 
+#b #two2{
+    width: 95%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.712);
+    margin: 10px;
+} 
+#b #last{
+    text-align: right;
+    padding: 0px 10px;
+}
+#c{
+    width: 100%;
+    height: 49%;
+    background-color: rgb(196, 14, 233);
+    border-radius: 10px;
+}
+#c #btn{
+    padding: 20px;
+}
+#c #btn a{
+    text-decoration: none;
+    border: 2px solid rgba(0, 0, 0, 0.411);
+    padding: 5px 10px;
+    color: black;
+    font-weight: 500;
+    border-radius: 100px;
+}
+#c #txt{
+    width: 40%;
+    padding: 0px 10px;
+    font-size: 16px;
+}
+#d{ 
+    width: 33%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+#d #foto{
+    position: relative;
+    width: 95%;
+    height: 50%;
+    background-image: url(https://images.unsplash.com/photo-1708545158412-ae3d000a2edf?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    margin: 2% 3%;
+    border-radius: 10px;
+}
+#d #foto h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: aliceblue;
+    font-weight: bold;
+}
+#d .first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px ;
+}
+#d #one{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 10px;
+    
+}
+#d #one h4{
+    opacity: 65%;
+}
+#d i{
+    font-size: 20px;
+   
+}
